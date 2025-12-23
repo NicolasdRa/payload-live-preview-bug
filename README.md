@@ -24,9 +24,11 @@ From the docs:
 ## Steps to Reproduce
 
 1. Clone this repo
-2. `npm install`
-3. `npm run dev`
-4. Open browser → Error appears
+2. `pnpm install`
+3. `pnpm dev`
+4. Open browser → Error appears in console: `Failed to resolve module specifier "payload/shared"`
+
+Note: `vite.config.js` marks `payload/shared` as external so the dev server starts and the error is visible in the browser.
 
 ## Workaround
 
