@@ -1,0 +1,16 @@
+{
+  "name": "payload-live-preview-bug-reproduction",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Minimal reproduction for @payloadcms/live-preview payload/shared import bug",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@payloadcms/live-preview": "3.69.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
